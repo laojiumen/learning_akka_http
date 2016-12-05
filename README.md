@@ -56,7 +56,7 @@ dependencies {
 >  - 异步能接受更大并发，同步更快，酌情。
 
 
-```
+```scala
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.HttpMethods._
@@ -114,7 +114,7 @@ object webServer extends App {
 
 ## high-level
 
-```
+```scala
 import akka.actor.{ActorRef, ActorSystem}
 import akka.http.scaladsl.coding.Deflate
 import akka.http.scaladsl.marshalling.ToResponseMarshaller
